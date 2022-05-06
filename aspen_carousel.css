@@ -405,7 +405,7 @@ h1 {
     line-height: 1.90476rem;
     font-family: "akagi-pro", sans-serif;
     line-height: 36px;
-    color: #f16530; }
+    color: #333333; }
 @media (min-width: 43.75em) {
     h1 {
         font-size: 42px;
@@ -430,7 +430,7 @@ h2 {
     line-height: 1.90476rem;
     line-height: 30px;
     font-family: "akagi-pro", sans-serif;
-    color: #f16530; }
+    color: #333333; }
 @media (min-width: 43.75em) {
     h2 {
         font-size: 36px;
@@ -728,7 +728,7 @@ html.embeddedCollectionSpotlight {
  .nav-tabs > li.active > a,
  .nav-tabs > li.active > a:hover,
  .nav-tabs > li.active > a:focus {
-     color: #f16530;
+     color: #333333;
      border-left: 0;
      border-top: 1px solid #f2f2f2;
      border-right-color: transparent; }
