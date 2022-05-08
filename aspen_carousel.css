@@ -956,12 +956,17 @@ html.embeddedCollectionSpotlight {
 #list-NoCoversTestListHeader .listTitle {
     display: none; }
 
-    /* ==========================================================================
-       Darien Customizations
-       ========================================================================== */
+  /* ==========================================================================
+     Darien Customizations
+     ========================================================================== */
 
-       .mediumScroller .scrollerTitleCover {
-         max-height: 200px;
-         max-width: 200px;
-         box-shadow:1px 9px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), -1px 13px 10px rgb(0 0 0 / 6%), 2px -4px 17.9px rgb(0 0 0 / 7%), 5px -4px 33.4px rgb(0 0 0 / 9%), 1px -2px 20px rgb(0 0 0 / 5%)
-       }
+/* Add the box shadow */
+ .mediumScroller .scrollerTitleCover {
+     max-height: 200px;
+     max-width: 200px;
+     box-shadow:1px 9px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), -1px 13px 10px rgb(0 0 0 / 6%), 2px -4px 17.9px rgb(0 0 0 / 7%), 5px -4px 33.4px rgb(0 0 0 / 9%), 1px -2px 20px rgb(0 0 0 / 5%)
+     }
+
+  .scrollerTitleCover{padding:0px;}
+
+     
