@@ -728,7 +728,8 @@ html.embeddedCollectionSpotlight {
  .nav-tabs > li.active > a,
  .nav-tabs > li.active > a:hover,
  .nav-tabs > li.active > a:focus {
-     color: #2362b3;
+     background-color: #2362b3;
+     color:#fff;
      border-left: 0;
      border-top: 1px dotted #ccc;
      border-right-color: transparent; }
@@ -956,7 +957,7 @@ html.embeddedCollectionSpotlight {
     display: none; }
 
   /* ==========================================================================
-     Darien Customizations
+     Darien Customizations (most of them)
      ========================================================================== */
 
 /* Add the box shadow */
@@ -972,11 +973,6 @@ html.embeddedCollectionSpotlight {
   background:#F7F7F7;
   color: #000;
 }
-
-.nav-tabs > li > a:hover {
-  background-color:red;
-}
-
 .nav-tabs > li > a:active {
   background-color: #153E72 !important;
   color: #fff !important;
