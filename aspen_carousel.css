@@ -970,8 +970,9 @@ html.embeddedCollectionSpotlight {
   .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
 
 .nav-tabs > li.active > a {
-  font-family: "Font Awesome 5 Free";
-    content: "\f138";
-    display: inline-block;
-    color: #2362b3;
+  display: inline-block;
+ border-right: 4px solid #2362b3;
+ border-bottom: 4px solid #2362b3;
+ width: 10px; height: 10px;
+ transform: rotate(-45deg);
   }
