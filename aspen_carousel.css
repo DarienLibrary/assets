@@ -973,7 +973,10 @@ html.embeddedCollectionSpotlight {
   color: #000;
 }
 
-.nav-tabs > li > a:hover, .nav-tabs > li > a:active {
+.nav-tabs > li > a:active {
+  background-color:red;
+}
+.nav-tabs > li > a:hover {
   color: #fff;
   background-color: #153E72;
 }
