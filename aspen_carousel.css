@@ -975,5 +975,5 @@ html.embeddedCollectionSpotlight {
 
 .nav-tabs > li > a:active, .nav-tabs > li > a:hover {
   background-color: #153E72 !important;
-  color: #000 !important;
+  color: #fff !important;
 }
