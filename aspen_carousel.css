@@ -968,7 +968,12 @@ html.embeddedCollectionSpotlight {
 
 .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
 
+.nav-tabs > li > a {
+  background:#F7F7F7;
+  color: #000;
+}
+
 .nav-tabs > li > a:hover, .nav-tabs > li > a:active {
-  color: #153E72;
-  background:transparent;
+  color: #fff;
+  background-color: #153E72;
 }
