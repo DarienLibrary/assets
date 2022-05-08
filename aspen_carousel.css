@@ -736,12 +736,12 @@ html.embeddedCollectionSpotlight {
      border-radius: 0;
      text-transform: uppercase;
      border-left: 0;
-     border-top: 1px solid #f2f2f2;
-     border-bottom: 1px solid #f2f2f2;
+     border-top: 1px dotted #ccc;
+     border-bottom: 1px dotted #ccc;
      color: #7c7c7c; }
  @media (min-width: 25em) {
      .nav-tabs > li > a {
-         border-right: 1px solid #f2f2f2; } }
+         border-right: 1px dotted #ccc; } }
 
 /* Remove border from spotlight */
 .tab-content {
