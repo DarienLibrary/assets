@@ -741,7 +741,7 @@ html.embeddedCollectionSpotlight {
      color: #7c7c7c; }
  @media (min-width: 25em) {
      .nav-tabs > li > a {
-     border-right: 1px dotted #ccc; } }
+     /*  border-right: 1px dotted #ccc; }*/ }
 
 /* Remove border from spotlight */
 .tab-content {
@@ -827,7 +827,7 @@ html.embeddedCollectionSpotlight {
 .horizontalCarouselSpotlightWrapper .jcarousel-control-next {
  width: 30px;
  height: 30px;
- /* border-right: 1px solid #ccc;*/
+ /* border-right: 1px solid #ccc;*
  border-top: 1px solid #ccc;
  transform: rotate(45deg);
 }
@@ -847,7 +847,7 @@ html.embeddedCollectionSpotlight {
    right: 6px;
    width: 30px !important;
    height: 30px;
-   : 1px solid #535353;
+   border-right: 1px solid #535353;
    border-bottom: 1px solid #535353;
    -webkit-transform: rotate(-45deg);
    -ms-transform: rotate(-45deg);
@@ -935,7 +935,7 @@ html.embeddedCollectionSpotlight {
     margin-top: -5px;
     width: 9px;
     height: 9px;
-    border-right: 1px solid red;
+    border-right: 1px solid #2e388f;
     border-bottom: 1px solid #2e388f;
     -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
     transform: rotate(-45deg) translate3d(0, 0, 0);
