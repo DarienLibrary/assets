@@ -741,7 +741,7 @@ html.embeddedCollectionSpotlight {
      color: #7c7c7c; }
  @media (min-width: 25em) {
      .nav-tabs > li > a {
-     /*  border-right: 1px dotted #ccc; }*/ }
+         border-right: 1px dotted #ccc; } }
 
 /* Remove border from spotlight */
 .tab-content {
@@ -827,7 +827,7 @@ html.embeddedCollectionSpotlight {
 .horizontalCarouselSpotlightWrapper .jcarousel-control-next {
  width: 30px;
  height: 30px;
- /* border-right: 1px solid #ccc;*
+ border-right: 1px solid #ccc;
  border-top: 1px solid #ccc;
  transform: rotate(45deg);
 }
