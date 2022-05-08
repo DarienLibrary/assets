@@ -734,7 +734,6 @@ html.embeddedCollectionSpotlight {
      border-right-color: transparent; }
  .nav-tabs > li > a {
      border-radius: 0;
-     text-transform: uppercase;
      border-left: 0;
      border-top: 1px dotted #ccc;
      border-bottom: 1px dotted #ccc;
@@ -968,3 +967,7 @@ html.embeddedCollectionSpotlight {
      }
 
   .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
+
+  .nav-tabs > li > a:hover, .nav-tabs > li > a:active {
+  color: #153E72;
+}
