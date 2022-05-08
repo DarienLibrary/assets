@@ -574,7 +574,7 @@ h6 {
     margin-bottom: 0px;
     margin-bottom: 0rem;
     letter-spacing: .03em;
-    text-transform: uppercase; }
+    text-transform: ; }
 
 a {
     color: #2e388f;
@@ -966,8 +966,9 @@ html.embeddedCollectionSpotlight {
      box-shadow:0px 9px 2.2px rgb(0 0 0 / 3%), 0px 7px 5.3px rgb(0 0 0 / 5%), inset 0px 12px 9px rgb(0 0 0 / 6%), -1px -1px 12px rgb(0 0 0 / 7%), -1px 11px 15px rgb(0 0 0 / 9%), 1px -2px 20px rgb(0 0 0 / 5%)
      }
 
-  .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
+.scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
 
-  .nav-tabs > li > a:hover, .nav-tabs > li > a:active {
+.nav-tabs > li > a:hover, .nav-tabs > li > a:active {
   color: #153E72;
+  background:transparent;
 }
