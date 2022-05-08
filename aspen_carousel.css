@@ -968,11 +968,3 @@ html.embeddedCollectionSpotlight {
      }
 
   .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
-
-.nav-tabs > li .active > a:after {
-  width:20px;
-  height:20px;
-    border-right: 3px solid #2362b3;
-    border-top: 3px solid #2362b3;
-    transform: rotate(45deg);
-  }
