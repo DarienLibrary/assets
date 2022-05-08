@@ -728,7 +728,7 @@ html.embeddedCollectionSpotlight {
  .nav-tabs > li.active > a,
  .nav-tabs > li.active > a:hover,
  .nav-tabs > li.active > a:focus {
-     color: #333333;
+     color: #2362b3;
      border-left: 0;
      border-top: 1px dotted #ccc;
      border-right-color: transparent; }
@@ -738,7 +738,7 @@ html.embeddedCollectionSpotlight {
      border-left: 0;
      border-top: 1px dotted #ccc;
      border-bottom: 1px dotted #ccc;
-     color: #7c7c7c; }
+     color: #333; }
  @media (min-width: 25em) {
      .nav-tabs > li > a {
          border-right: 1px dotted #ccc; } }
@@ -969,7 +969,7 @@ html.embeddedCollectionSpotlight {
 
   .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
 
-.nav-tabs > li/* .active > a:after */ {
+.nav-tabs > li .active > a:after {
   width:20px;
   height:20px;
     border-right: 3px solid #2362b3;
