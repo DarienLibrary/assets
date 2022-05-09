@@ -980,6 +980,23 @@ html.embeddedCollectionSpotlight {
 
 .nav-tabs {border-bottom: 0px !important;} /* To remove the dark bottom on the navigation */
 
-@media only screen and (min-width: 600px) {
-iframe#collectionSpotlight5 {height: 250px !important; background-color:yellow;}
-  }
+/* @media only screen and (min-width: 600px) {
+iframe#collectionSpotlight5 {height: 250px !important; background-color:yellow !important;}
+  } */
+
+.carousel-container {
+  position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    background-color:orange;
+}
+
+.carousel-container iframe {
+  position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
