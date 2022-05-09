@@ -980,12 +980,12 @@ html.embeddedCollectionSpotlight {
 
 .nav-tabs {border-bottom: 0px !important;} /* To remove the dark bottom on the navigation */
 
-/* @media only screen and (min-width: 600px) {
-iframe#collectionSpotlight5 {height: 250px !important; background-color:yellow !important;}
-  } */
+ @media only screen and (max-width: 600px) {
+   .carousel-container {display:none;}
+}
 
-  .carousel-container {
-      /* background-color: pink; */
+/* Not sure why this didn't work. Was using https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ */
+/* .carousel-container {
       height: 100%;
       padding-top: 250px;
       padding-bottom: 35%;
@@ -999,4 +999,4 @@ iframe#collectionSpotlight5 {height: 250px !important; background-color:yellow !
           padding-bottom: 25%;
           padding-top: 10px;
       }
-  }
+  } */
