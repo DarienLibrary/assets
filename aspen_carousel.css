@@ -964,7 +964,7 @@ html.embeddedCollectionSpotlight {
  .mediumScroller .scrollerTitleCover {
      max-height: 200px;
      max-width: 200px;
-     box-shadow:0px 9px 2.2px rgb(0 0 0 / 3%), 0px 7px 5.3px rgb(0 0 0 / 5%), inset 0px 12px 9px rgb(0 0 0 / 6%), -1px -1px 12px rgb(0 0 0 / 7%), -1px 11px 15px rgb(0 0 0 / 9%), 1px -2px 20px rgb(0 0 0 / 5%)
+     box-shadow:0px 7px 10px rgb(0 0 0 / 3%), 0px 9px 4px rgb(0 0 0 / 5%), inset 0px 12px 9px rgb(0 0 0 / 6%), -1px -1px 12px rgb(0 0 0 / 7%), 0px 10px 15px rgb(0 0 0 / 9%), 0px 8px 20px rgb(0 0 0 / 5%)
      }
 
 .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
@@ -977,3 +977,9 @@ html.embeddedCollectionSpotlight {
   background-color: #153E72 !important;
   color: #fff !important;
 }
+
+.nav-tabs {border-bottom: 0px !important;} /* To remove the dark bottom on the navigation */
+
+@media only screen and (max-width: 600px) {
+#collectionSpotlight5 {background-color:green;}
+  }
