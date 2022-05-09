@@ -981,5 +981,5 @@ html.embeddedCollectionSpotlight {
 .nav-tabs {border-bottom: 0px !important;} /* To remove the dark bottom on the navigation */
 
 @media only screen and (max-width: 600px) {
-#collectionSpotlight5 {height: 450px !important;}
+#collectionSpotlight5 {height: 500px !important;}
   }
