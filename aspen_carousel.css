@@ -980,8 +980,8 @@ html.embeddedCollectionSpotlight {
 
 .nav-tabs {border-bottom: 0px !important;} /* To remove the dark bottom on the navigation */
 
- @media only screen and (max-width: 600px) {
-   .carousel-container {background-color: red;}
+ @media only screen and (min-width: 600px) {
+   #footer-row {background-color: red;}
 }
 
 /* Not sure why this didn't work. Was using https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ */
