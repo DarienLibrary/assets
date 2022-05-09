@@ -984,20 +984,19 @@ html.embeddedCollectionSpotlight {
 iframe#collectionSpotlight5 {height: 250px !important; background-color:yellow !important;}
   } */
 
-.carousel-container {
-  position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-    background-color:orange;
-}
+  .carousel-container {
+      /* background-color: pink; */
+      height: 100%;
+      padding-top: 250px;
+      padding-bottom: 35%;
+      overflow: hidden;
+      position: relative;
+  }
 
-.carousel-container iframe {
-  position: absolute;
-   top:0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color:green;
-}
+  @media only screen and (min-width: 600px) {
+      .carousel-container {
+          background-color:aquamarine;
+          padding-bottom: 25%;
+          padding-top: 10px;
+      }
+  }
