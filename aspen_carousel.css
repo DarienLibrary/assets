@@ -725,9 +725,10 @@ html.embeddedCollectionSpotlight {
      .nav-tabs > li {
          float: none;
          display: inline-block; } }
- .nav-tabs > li.active > a,
- .nav-tabs > li.active > a:hover,
- .nav-tabs > li.active > a:focus {
+ .nav-tabs > a.collectionSpotlightTabs[aria-selected='true'],
+         .nav-tabs > a.collectionSpotlightTabs.active,
+         .nav-tabs > a.collectionSpotlightTabs.active:hover,
+         .nav-tabs > a.collectionSpotlightTabs.active:focus {
      background-color: #153E72;
      color:#fff;
      border-left: 0;
