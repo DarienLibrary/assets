@@ -717,7 +717,7 @@ html.embeddedCollectionSpotlight {
  @media (min-width: 45em) {
      .nav-tabs {
          width: 25%; } }
- .nav-tabs > li {
+ .nav-tabs > a {
      display: block;
      float: none;
      width: 100%; }
@@ -734,14 +734,14 @@ html.embeddedCollectionSpotlight {
      border-left: 0;
      border-top: 1px dotted #ccc;
      border-right-color: transparent; }
- .nav-tabs > li > a {
+ .nav-tabs > a.collectionSpotlightTabs {
      border-radius: 0;
      border-left: 0;
      border-top: 1px dotted #ccc;
      border-bottom: 1px dotted #ccc;
      color: #333; }
  @media (min-width: 25em) {
-     .nav-tabs > li > a {
+     .nav-tabs > a.collectionSpotlightTabs {
          border-right: 1px dotted #ccc; } }
 
 /* Remove border from spotlight */
