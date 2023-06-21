@@ -729,26 +729,28 @@ html.embeddedCollectionSpotlight {
          .nav-tabs > a.collectionSpotlightTabs.active,
          .nav-tabs > a.collectionSpotlightTabs.active:hover,
          .nav-tabs > a.collectionSpotlightTabs.active:focus {
-     background-color: #153E72;
-     color:#fff;
-     border-left: 0;
-     border-top: 1px dotted #ccc;
-     border-right-color: transparent; }
- .nav-tabs > a.collectionSpotlightTabs {
-     border-radius: 0;
-     border-left: 0;
-     border-top: 1px dotted #ccc;
-     border-bottom: 1px dotted #ccc;
-     color: #333; }
+             background-color: #153E72;
+             color:#fff;
+             border-left: 0;
+             border-top: 1px dotted #ccc;
+             border-right-color: transparent; }
+         .nav-tabs > a.collectionSpotlightTabs {
+             border-radius: 0;
+             border-left: 0;
+             border-top: 1px dotted #ccc;
+             border-bottom: 1px dotted #ccc;
+             color: #333; 
+             width: 100%;}
  @media (min-width: 25em) {
      .nav-tabs > a.collectionSpotlightTabs {
-         border-right: 1px dotted #ccc; } }
+        border-right: 1px dotted #ccc; } }
 
 /* Remove border from spotlight */
 .tab-content {
    border-left: 0;
    border-right: 0;
-   padding: 3px 10px; }
+   padding: 3px 10px; 
+   border-bottom: 0;}
 
 /* ==========================================================================
   HORIZONTAL SPOTLIGHT -- Wrapper around horiztonal spotlights
@@ -799,6 +801,52 @@ html.embeddedCollectionSpotlight {
    font-weight: normal;
    height: 20px;
    }
+
+span.listTitle.resultInformationLabel {
+   padding-right: 15px;
+   position: relative;
+   display: inline-block;
+   background-color: #fff;
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: #444;
+}
+
+#titleScrollerWrapper .titleScrollerHeader {
+    margin-bottom: 2rem;
+}
+
+#titleScrollerWrapper span.listTitle.resultInformationLabel {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.titleScroller .horizontalCarouselSpotlightWrapper {
+    margin-top: 33px;
+}
+
+/* Horizontal Carousel item title if tabbed widget -- added August 2022 */
+
+.horizontal-carousel .titleScrollerHeader {
+  background-color: transparent;
+  padding: 0 0 15px;
+  color: #444;
+  z-index: 2;
+  top: 0;
+  font-size: .7em;
+  font-weight: normal;
+  height: 20px;
+}
+
+.horizontal-carousel span.listTitle.resultInformationLabel {
+padding-right: 15px;
+position: relative;
+display: inline-block;
+background-color: #fff;
+font-size: 1.2rem;
+font-weight: bold;
+color: #444;
+}
 
 /* ==========================================================================
   HORIZONTAL CAROUSEL SPOTLIGHT -- RIGHT AND LEFT ARROW STYLES for JCarousel Spotlights
@@ -885,6 +933,15 @@ html.embeddedCollectionSpotlight {
 .collectionSpotlight.single .listTitle {
     display: none; }
 
+.collectionSpotlight.single span.listTitle.resultInformationLabel {
+    /* padding-right: 15px; */
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .collectionSpotlight.single .singleTitleWidget,
 .collectionSpotlight.single .mediumScroller.singleTitleSpotlight{
     width: auto; }
@@ -895,6 +952,7 @@ html.embeddedCollectionSpotlight {
     bottom: 0;
     font-size: 1em;
     font-weight: normal;
+    margin-top: 25px;
 }
 
 .collectionSpotlight.single .titleScrollerViewMore {
@@ -970,11 +1028,11 @@ html.embeddedCollectionSpotlight {
 
 .scrollerTitleCover{padding:0px;} /* Removes the padding on the image  in the carousel. */
 
-.nav-tabs > li > a {
+.nav-tabs > a.collectionSpotlightTabs {
   background:#F7F7F7;
   color: #000;
 }
-.nav-tabs > li > a:active {
+.nav-tabs > a.collectionSpotlightTabs:active {
   background-color: #153E72 !important;
   color: #fff !important;
 }
