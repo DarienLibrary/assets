@@ -1061,5 +1061,5 @@ color: #444;
   } */
 
 /* Customize the look of a ticker for the homepage */
-.carouselScrollerTitle .carouselScrollerTitleImage {display:none;}
+.carouselScrollerTitle .carouselScrollerTitleImage {display:none !important;}
 .carouselScrollerTitleLabel {text-transform:capitalize;}
