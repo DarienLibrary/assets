@@ -1063,3 +1063,5 @@ color: #444;
 /* Customize the look of a ticker for the homepage */
 img.scrollerTitleCover {display:none !important;}
 .titleScrollerSelectedTitle {text-transform:capitalize !important;}
+.scrollerBodyContainer {background:aliceblue;}
+
