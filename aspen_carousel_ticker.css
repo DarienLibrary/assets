@@ -1063,3 +1063,4 @@ color: #444;
 /* Customize the look of a ticker for the homepage */
 .mediumScroller .scrollerTitleCover {display:none !important;}
 .carouselScrollerTitleLabel {text-transform:capitalize;}
+.scrollerBodyContainer {background:pink;}
