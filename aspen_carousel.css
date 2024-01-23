@@ -980,13 +980,12 @@ color: #444;
     font-weight: 400;
     letter-spacing: 2px;
     letter-spacing: .1rem;
-    text-transform: uppercase;
+    text-transform: initial;
     text-decoration: none;
     border-bottom: 0;
     color: #2e388f;
-    transition: all .3s ease-in-out; }
-	text-transform: initial;
-background-color: yellow;
+    transition: all .3s ease-in-out; 
+	background-color: yellow;}
 .titleScrollerViewMore a:before {
     content: '';
     display: inline-block;
