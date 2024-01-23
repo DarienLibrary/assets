@@ -985,6 +985,8 @@ color: #444;
     border-bottom: 0;
     color: #2e388f;
     transition: all .3s ease-in-out; }
+	text-transform: initial;
+background-color: yellow;
 .titleScrollerViewMore a:before {
     content: '';
     display: inline-block;
@@ -1059,10 +1061,3 @@ color: #444;
           padding-top: 10px;
       }
   } */
-
-/* Update View More link for carousels */
-. titleScrollerViewMore a {
-	text-transform: initial;
-	font-weight: 900;
-	font-size: medium;
-}
