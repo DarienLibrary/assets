@@ -973,11 +973,11 @@ color: #444;
     padding: 0 1.90476rem 0 0;
     font-size: 18px;
     font-size: 17px;
-    font-size: 1.2em;
+    font-size: .75em;
     line-height: 30px;
     line-height: 29px;
     line-height: 1.42857rem;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: 2px;
     letter-spacing: .1rem;
     text-transform: initial;
@@ -985,7 +985,7 @@ color: #444;
     border-bottom: 0;
     color: #2e388f;
     transition: all .3s ease-in-out; 
-	background-color: yellow;}
+	}
 .titleScrollerViewMore a:before {
     content: '';
     display: inline-block;
