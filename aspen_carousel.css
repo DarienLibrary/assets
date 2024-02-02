@@ -973,13 +973,13 @@ color: #444;
     padding: 0 1.90476rem 0 0;
     font-size: 18px;
     font-size: 17px;
-    font-size: .75em;
+    font-size: .6em;
     line-height: 30px;
     line-height: 29px;
     line-height: 1.42857rem;
-    font-weight: 800;
-    letter-spacing: 2px;
-    letter-spacing: .1rem;
+    font-weight: 200;
+   /*  letter-spacing: 2px; * /
+    /* letter-spacing: .1rem; */
     text-transform: initial;
     text-decoration: none;
     border-bottom: 0;
