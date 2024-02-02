@@ -1053,6 +1053,11 @@ color: #444;
       position: relative;
   }
 
+/* To get a more NetGalley like appearance */
+.titleScrollerViewMore {
+margin-top: -225px !important; /* To get a more NetGalley like appearance */
+}
+
   @media only screen and (min-width: 600px) {
       .carousel-container {
           background-color:aquamarine;
