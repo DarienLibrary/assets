@@ -1055,8 +1055,7 @@ color: #444;
 
 /* To get a more NetGalley like appearance */
 .titleScrollerViewMore {
-/* margin-top: -225px !important;*/
-	background:lightblue;
+	margin-top: -225px;
 }
 
   @media only screen and (min-width: 600px) {
