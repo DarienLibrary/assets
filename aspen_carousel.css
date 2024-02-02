@@ -1055,7 +1055,7 @@ color: #444;
 
 /* To get a more NetGalley like appearance */
 .titleScrollerViewMore {
-margin-top: -225px !important; /* To get a more NetGalley like appearance */
+/* margin-top: -225px !important;*/
 	background:lightblue;
 }
 
