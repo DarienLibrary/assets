@@ -1065,3 +1065,7 @@ color: #444;
           padding-top: 10px;
       }
   } */
+
+[role="tablist"] {
+	min-height: 50px;
+}
