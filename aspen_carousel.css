@@ -729,7 +729,8 @@ html.embeddedCollectionSpotlight {
          .nav-tabs > a.collectionSpotlightTabs.active,
          .nav-tabs > a.collectionSpotlightTabs.active:hover,
          .nav-tabs > a.collectionSpotlightTabs.active:focus {
-             background-color: #153E72; 
+            /* background-color: #153E72; /*
+		 background-color: green;
              color:#fff;
              border-left: 0;
              border-top: 1px dotted #ccc;
@@ -1067,6 +1068,6 @@ color: #444;
   } */
 
 [role="tablist"] {
-	min-width: 25%;
+	min-width: 25% !important;
 	min-height: 50px;
 }
