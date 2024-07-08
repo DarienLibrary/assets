@@ -730,7 +730,7 @@ html.embeddedCollectionSpotlight {
          .nav-tabs > a.collectionSpotlightTabs.active:hover,
          .nav-tabs > a.collectionSpotlightTabs.active:focus {
             /* background-color: #153E72; */
-		 background-color: green;
+		 background-color: purple;
              color:#fff;
              border-left: 0;
              border-top: 1px dotted #ccc;
@@ -1039,7 +1039,10 @@ color: #444;
   color: #fff !important;
 }
 
-.nav-tabs {border-bottom: 0px !important;} /* To remove the dark bottom on the navigation */
+.nav-tabs {
+    border-bottom: 0px !important;
+    min-width: 25%;
+ } /* To remove the dark bottom on the navigation */
 
  /* @media only screen and (min-width: 600px) {
    #collectionSpotlight5 {display:none;}
@@ -1066,8 +1069,3 @@ color: #444;
           padding-top: 10px;
       }
   } */
-
-[role="tablist"] {
-	min-width: 25% !important;
-	min-height: 50px;
-}
