@@ -729,7 +729,8 @@ html.embeddedCollectionSpotlight {
          .nav-tabs > a.collectionSpotlightTabs.active,
          .nav-tabs > a.collectionSpotlightTabs.active:hover,
          .nav-tabs > a.collectionSpotlightTabs.active:focus {
-             background-color: #153E72;
+            /* background-color: #153E72; */
+		 background-color: red;
              color:#fff;
              border-left: 0;
              border-top: 1px dotted #ccc;
